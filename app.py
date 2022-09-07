@@ -19,5 +19,5 @@ def contact_us():
     return 'You can contact us through email: "random@gmail.com'
 
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=80)
+    app.run(debug=True, host='0.0.0.0', port=80)
 
